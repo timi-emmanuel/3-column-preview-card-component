@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click here to go to the solution URL](https://github.com/timi-emmanuel/3-column-preview-card-component)
+- Live Site URL: [Click here to go to the live site URL](https://3-column-preview-card-component-prxpjhb0l-timi-emmanuel.vercel.app/)
 
 ## My process
 
