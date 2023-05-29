@@ -95,11 +95,11 @@ border: 2.2px solid hsla(0, 0%, 100%, 0.75);
  .container{
   flex-flow: row  wrap;
   justify-content: center;
-  margin-top: 120px;    
+  margin-top: 80px;    
   }
 
   .box{
-   width: 18%;
+   width: 20%;
    padding: 30px 40px;
    height: 430px;
   }
@@ -115,10 +115,10 @@ border: 2.2px solid hsla(0, 0%, 100%, 0.75);
 
    .button{
     width:60%;
-    padding: 12px;
+    padding: 10px;
     text-align: center;
     font: normal 400 12px Lexend Deca;
-    margin: 80px 0px 0px 0px ;
+    margin: 60px 0px 0px 0px ;
    }
    }
 
