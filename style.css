@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+*{
+ box-sizing: border-box;
+}
+
+body{
+ margin: 0;
+ padding: 0;
+ background-color: hsl(0, 0%, 95%);
+}
+
+.container{
+ display: flex;
+ flex-flow: column  nowrap;
+ align-items: center;
+ /* height: 500px; */
+ margin-top: 50px;    
+ gap: 0rem;
+ }   
+ 
+.box{
+ width: 80%;
+ padding: 30px 50px;
+  }
+ 
+.sedans_container{
+background-color: hsl(31, 77%, 52%);
+border-radius: 8px 8px 0px 0px;
+}
+
+.suv-container{
+ background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-container{
+ background-color: hsl(179, 100%, 13%);
+ border-radius: 0px 0px 8px 8px;
+}
+
+h2{
+color: hsl(0, 0%, 95%);
+font: normal 700 28px Big Shoulders Display;
+text-transform: uppercase;
+}
+
+p{
+ color: hsla(0, 0%, 100%, 0.75);
+ font: normal 400 14px Lexend Deca;
+ line-height: 1.5;
+ /* text-align: left; */
+}
+ 
+.button{
+ width:50%;
+ border-radius: 20px;
+ background-color:hsl(0, 0%, 95%) ;
+ padding: 8px;
+ text-align: center;
+ font: normal 400 14px Lexend Deca;
+ margin: 30px 0px 20px 0px ;
+ cursor: pointer;
+}
+
+.button-sedans-color{
+ color: hsl(31, 77%, 52%)
+}
+
+.button-suvs-color{
+ color:hsl(184, 100%, 22%) ;
+}
+
+.button-luxury-color{
+ color:hsl(179, 100%, 13%) ;
+}
+
+.button:hover{
+color:hsla(0, 0%, 100%, 0.75);
+background-color: inherit;
+border: 2.2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center; 
+  margin-top: 10px;
+}
+  .attribution a { 
+   color: hsl(228, 45%, 44%); 
+  text-decoration: none;}
+
+
+  @media screen and (min-width: 614px)  {
+ .container{
+  flex-flow: row  wrap;
+  justify-content: center;
+  margin-top: 120px;    
+  }
+
+  .box{
+   width: 18%;
+   padding: 30px 40px;
+   height: 430px;
+  }
+
+  .sedans_container{
+   border-radius: 8px 0px 0px 8px;
+   }
+  
+   
+   .luxury-container{
+    border-radius: 0px 8px 8px 0px;
+   }
+
+   .button{
+    width:60%;
+    padding: 12px;
+    text-align: center;
+    font: normal 400 12px Lexend Deca;
+    margin: 80px 0px 0px 0px ;
+   }
+   }
+
+
